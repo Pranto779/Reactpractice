@@ -1,4 +1,4 @@
-function Getprops(props){
+function Getprops(props:an){
 
     return(
 

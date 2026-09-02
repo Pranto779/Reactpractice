@@ -3,6 +3,7 @@ import './App.css'
 import Getinfo from './interface_with_object'
 import Getprops from './Props'
 import Distruction from './props_Distruction'
+import Objectmap from './map'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <Getprops name="pranto" age="22"></Getprops>
       <Getinfo></Getinfo>
       <Distruction name='pranto roy' age={22} comment='React.js'></Distruction>
+    <Objectmap></Objectmap>
+
     </>
   )
 }
