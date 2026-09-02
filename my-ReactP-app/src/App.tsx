@@ -6,6 +6,7 @@ import Distruction from './props_Distruction'
 import Objectmap from './map'
 import Condition from './condition'
 import Event from './eventHandling'
+import Usestage from './Usestate'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <Objectmap></Objectmap>
     <Condition task="homework" isBool={true} ></Condition>
     <Event></Event>
+    <Usestage></Usestage>
 
     </>
   )

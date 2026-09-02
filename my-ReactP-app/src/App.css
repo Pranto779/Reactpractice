@@ -1,3 +1,22 @@
+
+.style{
+  color: rgb(245, 120, 120);
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.div{
+
+  width: 30%;
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin: auto;
+  border-radius: 20px;
+
+
+}
 .counter {
   font-size: 16px;
   padding: 5px 10px;
