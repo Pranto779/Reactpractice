@@ -4,6 +4,7 @@ import Getinfo from './interface_with_object'
 import Getprops from './Props'
 import Distruction from './props_Distruction'
 import Objectmap from './map'
+import Condition from './condition'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Getinfo></Getinfo>
       <Distruction name='pranto roy' age={22} comment='React.js'></Distruction>
     <Objectmap></Objectmap>
+    <Condition task="homework" isBool={true} ></Condition>
 
     </>
   )
