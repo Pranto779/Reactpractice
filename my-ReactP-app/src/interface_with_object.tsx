@@ -13,7 +13,7 @@ const user: Info = {
 
 export default function Getinfo() {
   return (
-    <div style={{color:"black",backgroundColor:"white",width:"40%",height:"30vh", border:"1px solid orange", borderRadius:"10px", margin:"auto" } }>
+    <div style={{color:"black",backgroundColor:"white",width:"40%",height:"30vh", border:"1px solid orange", borderRadius:"10px", marginLeft:"360px", marginTop:"10px", marginBottom:"10px"} }>
       <h3>Information Card</h3>
       <p>Name:{user.name}</p>
       <p>Age:{user.age} </p>
