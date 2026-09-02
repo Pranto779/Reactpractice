@@ -5,6 +5,7 @@ import Getprops from './Props'
 import Distruction from './props_Distruction'
 import Objectmap from './map'
 import Condition from './condition'
+import Event from './eventHandling'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Distruction name='pranto roy' age={22} comment='React.js'></Distruction>
     <Objectmap></Objectmap>
     <Condition task="homework" isBool={true} ></Condition>
+    <Event></Event>
 
     </>
   )
